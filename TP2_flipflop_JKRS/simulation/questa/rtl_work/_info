@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/simulation/questa
+T_opt
+!s110 1682095532
+V_XVQZ9KmG=n]<5?1RLB]K1
+04 16 8 work tb_flipflop_jkrs behavior 1
+=1-508140789cc3-6442bdab-2cb-634c
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eflipflop_jkrs
+Z1 w1682090255
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/flipflop_jkrs.vhd
+Z5 FC:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/flipflop_jkrs.vhd
+l0
+L4 1
+V5ajK^[K_E1mBIQMF01R]H1
+!s100 hd3LnRB4WB;O2CNN;^?4S1
+Z6 OL;C;2021.2;73
+31
+Z7 !s110 1682095529
+!i10b 1
+Z8 !s108 1682095529.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/flipflop_jkrs.vhd|
+Z10 !s107 C:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/flipflop_jkrs.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 13 flipflop_jkrs 0 22 5ajK^[K_E1mBIQMF01R]H1
+!i122 0
+l19
+L16 41
+VIOSaXNOz^C;3]^TAMPb1g2
+!s100 >XPbJJflZMGd6LDUkIK3O2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_flipflop_jkrs
+Z14 w1682091080
+R2
+R3
+!i122 1
+R0
+Z15 8C:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/tb_flipflop_JKRS.vhd
+Z16 FC:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/tb_flipflop_JKRS.vhd
+l0
+L4 1
+VgZfkLe[lWbY6AP3nM:jYf2
+!s100 OlE@i9XM^VSg;9M1mPIGP0
+R6
+31
+Z17 !s110 1682095530
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/tb_flipflop_JKRS.vhd|
+Z19 !s107 C:/intelFPGA_lite/22.1std/TP2_flipflop_JKRS/tb_flipflop_JKRS.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R13
+R2
+R3
+DEx4 work 16 tb_flipflop_jkrs 0 22 gZfkLe[lWbY6AP3nM:jYf2
+!i122 1
+l17
+L7 61
+V9;YO[@:j7on8FWY@9]BTN3
+!s100 <=7M=cc8hf`j4XDKRFm6J3
+R6
+31
+R17
+!i10b 1
+R8
+R18
+R19
+!i113 0
+R11
+R12

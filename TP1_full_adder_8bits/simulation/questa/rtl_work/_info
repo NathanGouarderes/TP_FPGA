@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/simulation/questa
+Efull_adder
+Z1 w1681980426
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/full_adder_8b.vhd
+Z6 FC:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/full_adder_8b.vhd
+l0
+L15 1
+V9GZkRlWHj5Eg4X_8ORZ903
+!s100 ]i1m^nHDXV<JI[g3d545[0
+Z7 OL;C;2021.2;73
+31
+Z8 !s110 1681980638
+!i10b 1
+Z9 !s108 1681980638.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/full_adder_8b.vhd|
+!s107 C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/full_adder_8b.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+Z13 DEx4 work 10 half_adder 0 22 eW9kHzW89Eg=Bn8IiflAn2
+R2
+R3
+R4
+DEx4 work 10 full_adder 0 22 9GZkRlWHj5Eg4X_8ORZ903
+!i122 1
+l28
+L26 26
+VjcW:faRCdoi01PMGX2KO?0
+!s100 H]ZVb8Sg=iAU2c@QP@<g33
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z14 !s107 C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/full_adder_8b.vhd|
+!i113 0
+R11
+R12
+Ehalf_adder
+Z15 w1681974817
+R2
+R3
+R4
+!i122 0
+R0
+Z16 8C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/half_adder.vhd
+Z17 FC:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/half_adder.vhd
+l0
+L6 1
+VeW9kHzW89Eg=Bn8IiflAn2
+!s100 ]jVDDTIY5OeWH[oUnjmCk0
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/half_adder.vhd|
+Z19 !s107 C:/intelFPGA_lite/22.1std/TP1_full_adder_8bits/half_adder.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R2
+R3
+R4
+R13
+!i122 0
+l24
+L21 11
+Vz5UH^2h72X3BDiNBk1WEC1
+!s100 T:V5J^^RY_83[GFgKEBgb1
+R7
+31
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 0
+R11
+R12

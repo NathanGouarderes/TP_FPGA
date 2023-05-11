@@ -1,0 +1,50 @@
+library ieee ;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+-- DESCRIPTION DES ENTREES/SORTIES DE L'ENTITY
+entity half_adder is
+	port (
+		a : in std_logic;
+		b : in std_logic;
+		d : in std_logic;
+		s : out std_logic;
+		c : out std_logic
+	);
+end half_adder;
+
+-- DESCRIPTION COMPORTEMENTALE DE L'ENTITY
+-- A B D | S C
+-- 0 0 0 | 0 0
+-- 0 0 1 | 1 0
+-- 0 1 0 | 1 0
+-- 1 0 0 | 0 1
+-- 1 0 1 | 0 1
+-- 1 1 0 | 0 1
+-- 1 1 1 | 1 1
+architecture behavioral of half_adder is
+-- (Optionnel) Ecrire ici la déclaration de signaux
+-- ex. signal X : std_logic;
+
+	signal S1 : std_logic; 
+
+begin
+    -- Ecrire ici les instructions cocurrentes décrivant le comportement de l'entity
+	-- ex. X <= not(A);
+	-- ex. S <= not(X);
+	
+	hadder1 : entity work.half_adder port map(
+		
+		S => S1;
+	);
+	
+	hadder2 : entity work.half_adder port map(
+		
+		A => S1;
+	);
+	
+	
+	s <= (a xor b) and (a xor d) and (b xor d);
+	c <= (a and b) and (a and d) and (b and d);
+	
+end behavioral;

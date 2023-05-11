@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SOR",
+					"strict" : false
+				},
+				{
+					"name" : "SOL",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Qo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RSTn",
+					"strict" : false
+				},
+				{
+					"name" : "SETn",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "SSL",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SSR",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

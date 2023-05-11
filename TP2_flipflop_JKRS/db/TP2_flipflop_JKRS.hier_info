@@ -1,0 +1,17 @@
+|flipflop_jkrs
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+CLK => Qntemp.CLK
+CLK => Qtemp.CLK
+SETn => Qtemp.IN0
+RSTn => Qtemp.IN1
+RSTn => Qntemp.PRESET
+RSTn => Qtemp.ACLR
+Q <= Qtemp.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qntemp.DB_MAX_OUTPUT_PORT_TYPE
+
+

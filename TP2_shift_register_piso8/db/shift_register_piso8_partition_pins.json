@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "So",
+					"strict" : false
+				},
+				{
+					"name" : "RSTn",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Wn_S",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "SETn",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Pi[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

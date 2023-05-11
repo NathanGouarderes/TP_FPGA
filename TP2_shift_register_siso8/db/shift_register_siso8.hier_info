@@ -1,0 +1,9 @@
+|shift_register_siso8
+Si => So~reg0.DATAIN
+CLK => So~reg0.CLK
+SETn => So.IN0
+RSTn => So.IN1
+RSTn => So~reg0.ACLR
+So << So~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

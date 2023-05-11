@@ -1,0 +1,78 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do shift_register_siso8_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/shift_register_siso8.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 08:30:20 on Apr 25,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/shift_register_siso8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shift_register_siso8
+# -- Compiling architecture behavioral of shift_register_siso8
+# End time: 08:30:20 on Apr 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 08:30:20 on Apr 25,2023
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_shift_register_siso8
+# -- Compiling architecture behavior of tb_shift_register_siso8
+# -- Loading entity shift_register_siso8
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 08:30:21 on Apr 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 7
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  tb_shift_register_siso8
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs=""+acc"" tb_shift_register_siso8 
+# Start time: 08:30:21 on Apr 25,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_shift_register_siso8(behavior)#1
+# Loading work.shift_register_siso8(behavioral)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Process Clock at C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd line 28
+# End time: 08:56:48 on Apr 25,2023, Elapsed time: 0:26:27
+# Errors: 0, Warnings: 0

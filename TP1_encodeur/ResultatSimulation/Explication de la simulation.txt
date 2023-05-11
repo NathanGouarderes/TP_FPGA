@@ -1,0 +1,10 @@
+La sortie vaut 5 car Y1 = 1 Y2 = 0 et V = 1
+La sortie vaut F car Y1 = 1 Y2 = 1 et V = 1
+
+Au lieu d'avoir séparé ma sortie en Y1 Y2 et V j'ai tout rassemblé dans une même valeur pour respecter ce tableau
+-- A B C D | S1 S2 S3
+-- 0 0 0 0 | 0  0  0
+-- 0 0 0 1 | 0  0  1
+-- 0 0 1 X | 0  1  1
+-- 0 1 X X | 1  0  1
+-- 1 X X X | 1  1  1

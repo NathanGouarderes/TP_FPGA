@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/simulation/questa
+T_opt
+!s110 1682404222
+Vg1;]W?dS1gE;U2JEXD;^L1
+04 23 8 work tb_shift_register_siso8 behavior 1
+=1-508140789cc3-6447737d-2d1-4ce8
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eshift_register_siso8
+Z1 w1682341862
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/shift_register_siso8.vhd
+Z5 FC:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/shift_register_siso8.vhd
+l0
+L5 1
+V8d:FTJNaHd<RPMI]Igcna2
+!s100 bYK]JcBgnXIl49kac0Azz3
+Z6 OL;C;2021.2;73
+31
+Z7 !s110 1682404220
+!i10b 1
+Z8 !s108 1682404220.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/shift_register_siso8.vhd|
+Z10 !s107 C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/shift_register_siso8.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 20 shift_register_siso8 0 22 8d:FTJNaHd<RPMI]Igcna2
+!i122 0
+l17
+L15 24
+V1FH<]OB0e7UaTDQ2OoTeI3
+!s100 Xcoc76a2YccBSXm>emW7c2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_shift_register_siso8
+Z14 w1682342304
+R2
+R3
+!i122 1
+R0
+Z15 8C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd
+Z16 FC:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd
+l0
+L4 1
+VLXkT4OYg6SL6[AGE1_ObP2
+!s100 7KRUM?eGYZR_eNRd@gaSK0
+R6
+31
+Z17 !s110 1682404221
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd|
+Z19 !s107 C:/intelFPGA_lite/22.1std/TP2_shift_register_siso8/tb_shift_register_siso8.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R13
+R2
+R3
+DEx4 work 23 tb_shift_register_siso8 0 22 LXkT4OYg6SL6[AGE1_ObP2
+!i122 1
+l15
+L7 52
+VTXlc_<C;2Zf==<7KR;<_c2
+!s100 dWN5>n@W370YXN[SB??Va2
+R6
+31
+R17
+!i10b 1
+R8
+R18
+R19
+!i113 0
+R11
+R12
